@@ -12,8 +12,17 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #FFF;
-  padding: 10em;
 } 
+
+.head-information .buttons {
+ padding: 70px;
+}
+
+.head-information .my-information {
+  padding: 70px;
+  padding-left: 40px;
+}
+
 
 .head-information i {
   border: solid 2.3px #FFF;
@@ -51,7 +60,7 @@ body {
 
 .head-information p {
   font-size: 22px;
-  margin-top: 
+  margin-bottom: 0px; 
 }
 
 .animation {
