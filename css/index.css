@@ -88,11 +88,6 @@ body {
   font-weight: 100;
 }
 
-.about-img {
-  font-size: 10px;
-  width: 670px;
-}
-
 .demonstration-awesome {
   padding: 70px;
 }
@@ -130,7 +125,12 @@ body {
 }
 
 .progress-abilities {
-  background-image: url("../img/backprogress.jpg");
+  background-image:    
+  linear-gradient(
+      rgba(65, 49, 125, 0.45), 
+      rgba(65, 49, 125, 0.45)
+    ), 
+  url("../img/conhecimento.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 70px;
@@ -144,6 +144,11 @@ body {
 
 .progress-abilities p {
   font-size: 23px;
+}
+
+.progress-abilities .progress {
+  border: 5px solid #fff;
+  margin-top: 3px;
 }
 
 .skills-show {
