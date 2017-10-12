@@ -146,6 +146,30 @@ body {
   font-size: 23px;
 }
 
+.skills-show .progress-html {
+  width: 80%;
+}
+
+.skills-show .progress-css {
+  width: 70%;
+}
+
+.skills-show .progress-bootstrap {
+  width: 50%;
+}
+
+.skills-show .progress-rd {
+  width: 50%;
+}
+
+.skills-show .progress-git {
+  width: 60%;
+}
+
+.skills-show .progress-js {
+  width: 10%;
+}
+
 .progress-abilities .progress {
   border: 5px solid #fff;
   margin-top: 3px;
@@ -153,10 +177,6 @@ body {
 
 .skills-show {
   padding-top: 40px;
-}
-
-.skills-show .progress-bar {
-  width: 25%;
 }
 
 .skills-card {
