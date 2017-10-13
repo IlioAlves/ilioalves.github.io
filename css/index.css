@@ -177,6 +177,7 @@ body {
 
 .skills-show {
   padding-top: 40px;
+  margin-left: 60px;
 }
 
 .skills-card {
@@ -428,8 +429,13 @@ body {
   font-size: 23px;
 }
 
+.input-margin {
+  margin-top: 50px;
+}
+
 .contact .input-group {
-  width: 600px;
+  width: 550px;
+  height: 50px;
 }
 
 .text-area-size {
