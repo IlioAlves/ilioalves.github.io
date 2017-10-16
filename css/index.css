@@ -401,6 +401,20 @@ body {
   font-weight: unset; 
 } 
 
+.education-padding hr {
+  background-color: #580183;
+  height: 2px;
+  width: 13%;
+}
+
+.education-formation-text {
+  margin-top: 30px;
+}
+
+.education-formation-text h4 {
+ font-weight: unset;
+}
+
 .work-experience-padding {
   padding: 70px;
   background-color: #580183;
