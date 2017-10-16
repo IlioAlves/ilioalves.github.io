@@ -273,6 +273,7 @@ body {
   color: #FFF;
   padding: 17px;
   font-size: 50px;
+  height: 90px;
 }
 
 .education-padding h2 {
@@ -286,8 +287,7 @@ body {
   margin-bottom: 30px;
 
 }
-
-.balao2 {
+.balao1 {
     color: #FFF;
     background: #222930;
     border-radius: 15px;
@@ -296,11 +296,12 @@ body {
     vertical-align: middle;
     display: table-cell;
     padding: 30px;
+    padding-right: 87%;
     font-size: 30px;
 
     position: relative;
 }
-.balao2:after{
+.balao1:after{
 
     content: "";
 
@@ -316,6 +317,89 @@ body {
     right:-20px;
     top: 20%;
 }
+
+.education-padding i {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.margin-education-2 {
+  margin-left: 29.5%;
+}
+
+.balao2 {
+    color: #FFF;
+    background: #222930;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 30px;
+    padding-right: 50%;
+    font-size: 30px;
+
+    position: relative;
+}
+.balao2:after{
+
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #222930;
+
+    right:470px;
+    top: 20%;
+}
+
+.balao3 {
+    color: #FFF;
+    background: #222930;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 30px;
+    padding-right: 51%;
+    font-size: 30px;
+
+    position: relative;
+}
+.balao3:after{
+
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #222930;
+
+    right:-20px;
+    top: 20%;
+}
+
+.balao1 strong {
+  font-weight: unset; 
+} 
+
+.balao2 strong {
+  font-weight: unset; 
+}
+
+.balao3 strong {
+  font-weight: unset; 
+} 
 
 .work-experience-padding {
   padding: 70px;
