@@ -23,15 +23,6 @@ body {
   padding-left: 40px;
 }
 
-
-.head-information i {
-  border: solid 2.3px #FFF;
-  padding: 15px;
-  color: #fff;
-  height: 74.5px;
-  width: 71.5px;
-}
-
 .head-information .top-bottom a {
   color: #FFF;
   text-decoration: none;
@@ -51,12 +42,6 @@ body {
   font-size: 100px;
   font-weight: 100;
   margin-top: 40px;
-}
-
-.head-information h2 {
-  font-size: 50px;
-  margin-top: 40px;
-  opacity: 0.8;
 }
 
 .head-information p {
@@ -88,42 +73,6 @@ body {
   font-weight: 100;
 }
 
-.demonstration-awesome {
-  padding: 70px;
-}
-
-.demonstration-awesome hr{
-  border-top: 3px solid rgba(0,0,0,.1) 
-}
-
-.second-about {
-  padding: 70px;
-}
-
-.second-about h2 {
-  font-size: 55px;
-  font-weight: 300;
-}
-
-.second-about p {
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.demonstration-awesome1 {
-  padding: 90px;
-  padding-top: 0px;
-}
-
-.demonstration-awesome1 h4 {
-  font-size: 55px;
-  font-weight: 300;
-}
-
-.demonstration-awesome1 p {
-  font-size: 24px;
-}
-
 .progress-abilities {
   background-image:    
   linear-gradient(
@@ -144,6 +93,11 @@ body {
 
 .progress-abilities p {
   font-size: 23px;
+}
+
+.skills-show {
+  padding-top: 40px;
+  margin-left: 60px;
 }
 
 .skills-show .progress-html {
@@ -174,90 +128,6 @@ body {
   border: 5px solid #fff;
   margin-top: 3px;
 }
-
-.skills-show {
-  padding-top: 40px;
-  margin-left: 60px;
-}
-
-.skills-card {
-  padding-top: 70px;
-  padding-left: 70px;
-}
-
-.skills-card .card {
-  width: 20rem;
-  color: black;
-}
-
-.border-skill-card1 {
-  border-radius: 10px;
-  border: 3px solid transparent;
-  width: 200px;
-}
-
-.border-skill-card1 h3{
-  color: #580183;
-  font-size: 55px;
-}
-
-.border-skill-card1 ul{
-  color: #5b6b7f;
-  font-size: 24px;
-  font-weight: 300;
-}
-
-.border-skill-card1 .quality-color-p {
-  color: #EC0856;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.border-skill-card1 .quality-color-b {
-  color: #0977C7;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.border-skill-card2 {
-  border-radius: 10px;
-  border: 3px solid transparent;
-}
-
-.border-skill-card2 h3 {
-  color: #0977C7;
-  font-size: 55px;
-}
-
-.border-skill-card2 p {
- color: #758599;
- margin-bottom: 24px; 
-}
-
-.border-skill-card3 {
-  border-radius: 10px;
-  border: 3px solid transparent;
-}
-  
-.border-skill-card3 h3 {
-  color: #580183;
-  font-size: 55px;
-}
-
-.border-skill-card3 .wrap-awesom {
-  padding-left: 40px;
-}
-
-.border-skill-card3 .wrap-awesom i {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-.border-skill-card3 .wrap-awesom p {
-  color: #738A99;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
   
 .education-padding {
   padding: 70px;
@@ -274,6 +144,11 @@ body {
   padding: 17px;
   font-size: 50px;
   height: 90px;
+}
+
+.education-padding i {
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
 .education-padding h2 {
@@ -318,10 +193,7 @@ body {
     top: 20%;
 }
 
-.education-padding i {
-  margin-left: 30px;
-  margin-right: 40px;
-}
+
 
 .margin-education-2 {
   margin-left: 29.5%;
@@ -415,118 +287,6 @@ body {
  font-weight: unset;
 }
 
-.work-experience-padding {
-  padding: 70px;
-  background-color: #580183;
-  color: #FFF;
-}
-
-.work-experience-padding h2 {
-  font-size: 87px;
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
-
-.work-experience-padding p {
-  font-size: 25px;
-  margin-bottom: 40px;
-}
-
-.work-experience-padding h3 {
-  color: #FF2A73;
-  margin-top: 40px;
-  font-size: 37px;
-}
-
-.work-experience-padding h5 {
-  font-size: 23px;
-  color: rgba(255,255,255,.7);
-  text-transform: uppercase;
-}
-
-.nav-courses a {
-  color : #000;
-  border: 2px solid #ccc;
-  border-radius: 100px;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 10px;
-}
-
-.nav-courses a:hover {
-  color : #EC0856;
-  border: 2px solid #EC0856;
-  border-radius: 100px;
-}
-
-.portfolio {
-  margin-left: 70px;
-  margin-right: 100px;
-}
-
-.portfolio h2{
-  font-size: 87px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
-.portfolio p{
-  font-size: 25px;
-}
-
-.portfolio-page1 {
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-
-.portfolio-page2 {
-  margin-bottom: 100px;
-}
-
-.resume-tag {
-  background-color: #EC0856;
-  padding: 110px;
-  margin: 0px;
-}
-
-.resume-tag i {
-  border: solid 2.3px #FFF;
-  padding: 10px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: 
-} 
-
-.resume-tag i:hover{
-  background-color: #2D373D;
-  border: 2px solid rgba(44,49,58,1)
-}
-
-.resume-tag-download {
-  padding: 10px;
-  vertical-align: center;
-
-}
-.resume-tag-download a {
-  color : #2D373D;
-  font-size: 25px;
-  background-color: #FFF;
-  border: 2px solid #ccc;
-  border-radius: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-.resume-tag-download a:hover {
-  color : #FFF;
-  background-color: #2D373D;
-  border: 2px solid #EC0856;
-  border-radius: 100px;
-}
-
 .contact {
     background-image:
     linear-gradient(
@@ -552,6 +312,11 @@ body {
 .contact p {
   font-size: 40px;
   margin-bottom: 43px;
+}
+
+.contact form {
+  width: 400px;
+  margin: 0 auto;
 }
 
 .contact input {
@@ -596,27 +361,3 @@ body {
   color: #1087EA;
   background-color: #FFF
 }
-
-.footer-page {
-  background-color: #342333 ;
-  color: #FFF
-}
-
-.footer-page-left {
-  float: left;
-  padding-left: 50px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.footer-page-right {
-  float: right;
-  padding-right: 60px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.footer-page p {
-  font-size: 20px;
-}
-
