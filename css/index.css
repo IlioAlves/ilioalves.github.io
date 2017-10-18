@@ -312,7 +312,7 @@ body {
   margin-bottom: 80px;
 }
 
-.input-information-button a {
+.input-information-button {
   color : #fff;
   border: 2px solid #ccc;
   border-radius: 100px;
@@ -320,13 +320,13 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   background-color: #1087EA;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 107px;
   padding-right: 107px;
 
 }
 
-.input-information-button a:hover {
+.input-information-button :hover {
   color: #1087EA;
   background-color: #FFF
 }
