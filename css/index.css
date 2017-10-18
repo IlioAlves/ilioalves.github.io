@@ -95,6 +95,10 @@ body {
   font-size: 23px;
 }
 
+.skill-title {
+  padding: 20px;
+}
+
 .skills-show {
   padding-top: 40px;
   margin-left: 60px;
