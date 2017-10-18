@@ -166,9 +166,9 @@ body {
   margin-bottom: 30px;
 
 }
-.balao1 {
+.balao-right {
     color: #FFF;
-    background: #222930;
+    background: #605D84;
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -180,7 +180,7 @@ body {
 
     position: relative;
 }
-.balao1:after{
+.balao-right:after{
 
     content: "";
 
@@ -203,9 +203,9 @@ body {
   margin-left: 29.5%;
 }
 
-.balao2 {
+.balao-left {
     color: #FFF;
-    background: #222930;
+    background: #605D84;
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -217,7 +217,7 @@ body {
 
     position: relative;
 }
-.balao2:after{
+.balao-left:after{
 
     content: "";
 
@@ -230,52 +230,17 @@ body {
     border-bottom: 20px solid transparent;
     border-right: 20px solid #222930;
 
-    right:470px;
+    right:379px;
     top: 20%;
 }
 
-.balao3 {
-    color: #FFF;
-    background: #222930;
-    border-radius: 15px;
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 30px;
-    padding-right: 51%;
-    font-size: 30px;
-
-    position: relative;
-}
-.balao3:after{
-
-    content: "";
-
-    width: 0;
-    height: 0;
-
-    position: absolute;
-
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid #222930;
-
-    right:-20px;
-    top: 20%;
-}
-
-.balao1 strong {
+.balao-right strong {
   font-weight: unset; 
 } 
 
-.balao2 strong {
+.balao-left strong {
   font-weight: unset; 
 }
-
-.balao3 strong {
-  font-weight: unset; 
-} 
 
 .education-padding hr {
   background-color: #580183;
