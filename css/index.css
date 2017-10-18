@@ -191,7 +191,7 @@ body {
 
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 20px solid #222930;
+    border-left: 20px solid #605D84;
 
     right:-20px;
     top: 20%;
@@ -228,11 +228,10 @@ body {
 
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-right: 20px solid #222930;
+    border-right: 20px solid #605D84;
 
     right:379px;
     top: 20%;
-}
 
 .balao-right strong {
   font-weight: unset; 
