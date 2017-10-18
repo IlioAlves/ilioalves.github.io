@@ -326,7 +326,7 @@ body {
 
 }
 
-.input-information-button :hover {
+.input-information-button:hover {
   color: #1087EA;
   background-color: #FFF
 }
