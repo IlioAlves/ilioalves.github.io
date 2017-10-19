@@ -12,7 +12,7 @@
   <header class="head-information">
     <div class="buttons">
       <div class="top-bottom float-right">
-        <a href="#">Entre em contato</a>
+        <a href="#form-contact">Entre em contato</a>
       </div>
     </div>
     <div class="text-center my-information">
@@ -146,35 +146,55 @@
   <div class="education-padding">
     <h2>Educação</h2>
     <p>Abaixo está listado somente as formações presenciais, excluindo cursos realizados online na alura, udemy e outros.</p>
-    <div class="container-fluid">
-      <div class="education-formation">
-        <div class="row">   
-          <div class="col"><div class="balao-right"><strong>Matemática-UFG</strong></div></div>
-          <div class="col-md-auto"><div class="text-center"><i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i></div></div>
-          <div class="col"><p class="text-left">2015 January</p></div>
-        </div>
-      </div>
-      <div class="education-formation">
-        <div class="row">   
-          <div class="col"><p class="text-right">2015 January</p></div>
-          <div class="col-md-auto"><div class="text-center"><i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i></div></div>
-          <div class="col"><div class="balao-left"><strong>Matemática-UFG</strong></div></div>
-        </div>
-      </div>
-      <div class="education-formation">
-        <div class="row">   
-          <div class="col"><div class="balao-right"><strong>Matemática-UFG</strong></div></div>
-          <div class="col-md-auto"><div class="text-center"><i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i></div></div>
-          <div class="col"><p class="text-left">2015 January</p></div>
-        </div>
-        <div class="education-formation">  
-          <div class=""><div class="text-center"><i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i></div></div>
-        </div>
-        <div class="education-formation-text">  
-          <h4 class="text-center">O começo</h4>
-          <h4 class="text-center">dos tempos</h4>
-          <hr />
-        </div>
+    <div class="education-balloons">
+      <div class="container-fluid">
+          <div class="education-formation">
+            <div class="row">   
+              <div class="col"><div class="balao-right"><strong>Matemática-UFG</strong></div></div>
+              <div class="col-md-auto">
+                <hr />
+                <div class="text-center">
+                  <i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col"><p class="text-left">2015 January</p></div>
+            </div>
+          </div>
+
+          <div class="education-formation">
+            <div class="row">   
+              <div class="col"><p class="text-right">2015 January</p></div>
+              <div class="col-md-auto">
+                <div class="text-center">
+                  <i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col"><div class="balao-left"><strong>Matemática-UFG</strong></div></div>
+            </div>
+          </div>
+
+          <div class="education-no-ballons">
+            <div class="row">   
+              <div class="col"><div class="balao-right"><strong>Matemática-UFG</strong></div></div>
+              <div class="col-md-auto">
+                <div class="text-center">
+                  <i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col"><p class="text-left">2015 January</p></div>
+            </div>
+            
+            <div class="education-no-ballons-awessom">  
+              <div class="text-center">
+                <i class="fa fa-graduation-cap fa-5x rounded-circle" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="education-formation-text">  
+              <h4 class="text-center">O começo</h4>
+              <h4 class="text-center">dos tempos</h4>
+              <hr />
+            </div>
+          </div>
       </div>
     </div>
   </div>
@@ -221,7 +241,7 @@
                  <input type="text" class="form-control" id="input-subject" placeholder="Assunto" aria-label="Assunto" aria-describedby="sizing-addon2">
               </div>
             </div>
-            <textarea class="text-area-size" id="input-message" placeholder="Escreva qualquer coisa aqui"></textarea>
+              <textarea class="form-control" id="input-message" placeholder="Escreva qualquer coisa aqui" cols="60" rows="8"></textarea>
             <button type="submit" class="justify-content-center input-information-button">Enviar <strong>Para mim</strong></button>
           </div>
       </form>

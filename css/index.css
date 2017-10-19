@@ -141,18 +141,24 @@ body {
   margin-top: 60px;
 }
 
+.education-no-ballons {
+    margin-top: 60px;
+}
+
 .education-padding .rounded-circle {
   background-color: #580183;
   border-radius: 50%;
   color: #FFF;
-  padding: 17px;
-  font-size: 50px;
-  height: 90px;
-}
-
-.education-padding i {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 17px;
+  padding-right: 17px;
   margin-left: 30px;
   margin-right: 40px;
+  z-index: 2;
+  position: sticky;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+
 }
 
 .education-padding h2 {
@@ -242,10 +248,21 @@ body {
   font-weight: unset; 
 }
 
-.education-padding hr {
-  background-color: #580183;
-  height: 2px;
-  width: 13%;
+.education-formation hr {
+  background-color: #d7e4ed;
+  width: 5px;
+  height: 700px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 95px;
+}
+
+.education-balloons {
+  position: relative;
+}
+
+.education-no-ballons-awessom {
+  padding-top: 110px;
 }
 
 .education-formation-text {
@@ -254,6 +271,13 @@ body {
 
 .education-formation-text h4 {
  font-weight: unset;
+}
+
+.education-formation-text hr {
+  background-color: #580183;
+  height: 1px;
+  width: 160px;
+
 }
 
 .contact {
@@ -301,12 +325,12 @@ body {
   height: 50px;
 }
 
-.text-area-size {
-  width: 37.5em;
-  height: 15em;
-  margin-top: 2em;
-  margin-bottom: 3em; 
+#input-message {
+  resize: none;
+  font-size: 23px;
+
 }
+
 
 .input-information-button {
   margin-bottom: 80px;
@@ -330,3 +354,10 @@ body {
   color: #1087EA;
   background-color: #FFF
 }
+
+.education-padding .col-md-auto {
+  padding-top: 30px;
+}
+
+
+
