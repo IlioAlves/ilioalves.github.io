@@ -210,41 +210,6 @@ body {
     top: 20%;
 }
 
-.balao-left {
-    color: #FFF;
-    background: #605D84;
-    border-radius: 5px;
-    width: ;
-    height: 100%;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 20px;
-    padding-right: 366px;
-    font-size: 30px;
-    box-sizing:unset;
-    box-sizing:initial;
-    box-sizing:inherit;
-    box-sizing:content-box;
-    box-sizing:border-box;
-
-    position: relative;
-}
-.balao-left:after{
-
-    content: "";
-
-    width: 0;
-    height: 0;
-
-    position: absolute;
-
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid #605D84;
-
-    right:547px;
-    top: 20%;
-}
 
 .balao-right p {
   font-weight: 300; 
@@ -260,7 +225,7 @@ body {
 .education-formation hr {
   background-color: #d7e4ed;
   width: 5px;
-  height: 700px;
+  height: 340px;
   z-index: 1;
   position: absolute;
   margin-left: 95px;
